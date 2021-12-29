@@ -1,5 +1,5 @@
 --[[
-shiro
+15x
 --]]
 
 
@@ -33,14 +33,14 @@ end
 game.StarterGui:SetCore(
     "SendNotification",
     {
-	Title = "shiro",
-	Text = "shiro, You're whitelisted.",
+	Title = "15x",
+	Text = "INSOMNIAC, You're whitelisted.",
 }
 )
 local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local L_4_ = L_3_.CreateLib("shiro", "BloodTheme")
+local L_4_ = L_3_.CreateLib("15x", "BloodTheme")
 local L_5_ = L_4_:NewTab("Aimlock")
-local L_6_ = L_5_:NewSection("shiro")
+local L_6_ = L_5_:NewSection("15x")
 L_6_:NewButton(
     "Aimlock",
     "Beam niggas and jews down",
