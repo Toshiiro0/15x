@@ -33,7 +33,7 @@ end
 game.StarterGui:SetCore(
     "SendNotification",
     {
-	Title = "15x",
+	Title = "shiro",
 	Text = "INSOMNIAC, You're whitelisted.",
 }
 )
