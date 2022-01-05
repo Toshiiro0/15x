@@ -301,39 +301,8 @@ local L_14_ = L_13_:NewSection("shiro.")
 L_14_:NewKeybind(
     "Keybind Gui Toggle",
     "h",
-    Enum.KeyCode.V,
+    Enum.KeyCode.;,
     function()
 	L_3_:ToggleUI()
-end
-)
-local L_17_ = L_4_:NewTab("ESP")
-local L_18_ = loadstring(game:HttpGet("https://kiriot22.com/releases/ESP.lua"))()
-local L_19_ = L_17_:NewSection("shiro.")
-L_19_:NewToggle(
-    "ESP",
-    "ESP",
-    function(L_201_arg0)
-	L_18_:Toggle(L_201_arg0)
-end
-)
-L_19_:NewToggle(
-    "Tracers",
-    "ESP Tracers",
-    function(L_202_arg0)
-	L_18_.Tracers = L_202_arg0
-end
-)
-L_19_:NewToggle(
-    "Names",
-    "ESP Names",
-    function(L_203_arg0)
-	L_18_.Names = L_203_arg0
-end
-)
-L_19_:NewToggle(
-    "Boxes",
-    "ESP Boxes",
-    function(L_204_arg0)
-	L_18_.Boxes = L_204_arg0
 end
 )
