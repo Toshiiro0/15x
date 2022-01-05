@@ -301,7 +301,7 @@ local L_14_ = L_13_:NewSection("shiro.")
 L_14_:NewKeybind(
     "Keybind Gui Toggle",
     "h",
-    Enum.KeyCode.;,
+    Enum.KeyCode.V,
     function()
 	L_3_:ToggleUI()
 end
