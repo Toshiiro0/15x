@@ -37,7 +37,7 @@ game.StarterGui:SetCore(
 	Text = "INSOMNIAC, You're whitelisted.",
 }
 )
-local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/60l/drawing-ui-lib/main/raw"))()
+local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local L_4_ = L_3_.CreateLib("shiro.", "BloodTheme")
 local L_5_ = L_4_:NewTab("Aimlock")
 local L_6_ = L_5_:NewSection("shiro.")
