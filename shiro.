@@ -2,13 +2,6 @@
 shiro.
 --]]
 
-local Network = GetService.NetworkClient
-local riceFolder = Instance.new("Folder", workspace)
-riceFolder.Name = "shiro. Folder"
-local StarterGui = GetService.StarterGui
-local ReplicatedStorage = GetService.ReplicatedStorage
-
-
 
 local L_1_ = "["
 local L_2_ = game.Players.LocalPlayer:GetMouse()
@@ -264,7 +257,7 @@ local L_7_ = L_4_:NewTab("Silent Aim")
 local L_8_ = L_7_:NewSection("shiro.")
 L_8_:NewButton(
     "Silent Aim",
-    "Silent Aim Toggle Key is [ .",
+    "Silent Aim Toggle Key is T .",
     function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/tayodevelup/imsoniac/main/silentaim", true))()
 end
