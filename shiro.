@@ -34,10 +34,10 @@ game.StarterGui:SetCore(
     "SendNotification",
     {
 	Title = "shiro",
-	Text = "shiro, You're whitelisted.",
+	Text = "INSOMNIAC, You're whitelisted.",
 }
 )
-local L_3_ = loadstring(game:HttpGet("local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local L_3_ = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local L_4_ = L_3_.CreateLib("shiro.", "BloodTheme")
 local L_5_ = L_4_:NewTab("Aimlock")
 local L_6_ = L_5_:NewSection("shiro.")
@@ -257,7 +257,7 @@ local L_7_ = L_4_:NewTab("Silent Aim")
 local L_8_ = L_7_:NewSection("shiro.")
 L_8_:NewButton(
     "Silent Aim",
-    "Silent Aim Toggle Key is T .",
+    "Silent Aim Toggle Key is T.",
     function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/tayodevelup/imsoniac/main/silentaim", true))()
 end
