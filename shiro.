@@ -595,8 +595,9 @@ local AnimationState = {
     Fall = "Default",
 }
 
-local MiscellaneousTab = Window:CreateTab("Miscellaneous")
-
+local L_7_ = L_4_:NewTab("animation")
+local L_8_ = L_7_:NewSection("shiro.")
+L_8_:NewButton(
 LocalPlayer.CharacterAdded:Connect(function()
     wait(0.5)
     PuppywareModule.God.GodMeleeAlive = false
