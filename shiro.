@@ -244,6 +244,13 @@ L_6_:NewDropdown(
 	getgenv().AimPart = L_71_arg0
 end
 )
+L_6_:NewTextBox(
+    "Smoothness",
+    "rice rice",
+    function(L_990_arg0)
+	getgenv().SmoothnessAmount = L_990_arg0
+end
+)
 local L_7_ = L_4_:NewTab("Silent Aim")
 local L_8_ = L_7_:NewSection("shiro.")
 L_8_:NewButton(
@@ -290,7 +297,6 @@ L_8_:NewToggle(
 	Aiming.ShowFOV = L_75_arg0
 end
 )
-
 
 local L_13_ = L_4_:NewTab("Settings")
 local L_14_ = L_13_:NewSection("shiro.")
