@@ -251,11 +251,18 @@ L_6_:NewToggle(
 	getgenv().Smoothness = L_990_arg0
 end
 )
+L_6_:NewTextBox(
+    "Smoothness Amount",
+    "rice rice",
+    function(L_9920_arg0)
+	getgenv().SmoothnessAmount = L_9920_arg0
+end
+)
 local L_7_ = L_4_:NewTab("Silent Aim")
 local L_8_ = L_7_:NewSection("shiro.")
 L_8_:NewButton(
     "Silent Aim",
-    "Silent Aim Toggle Key is T. (fps drop bc a lot of hitbox)",
+    "Silent Aim Toggle Key is T.",
     function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hharu02/ssadsdasd/main/asdas"))()
 Aiming.TargetPart = {"Head", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg", "UpperTorso", "HumanoidRootPart", "LeftUpperLeg", "RightLowerLeg", "RightFoot", "LowerTorso"}
@@ -268,6 +275,19 @@ L_8_:NewTextBox(
     "0.157 for low ping 0.178 high ping",
     function(L_72_arg0)
 	DaHoodSettings.Prediction = L_72_arg0
+end
+)
+L_8_:NewDropdown(
+    "Silent Aim Part",
+    "yes bro flash is cool",
+    {
+	"Head",
+	"UpperTorso",
+	"HumanoidRootPart",
+	"LowerTorso"
+},
+    function(L_73_arg0)
+	Aiming.TargetPart = L_73_arg0
 end
 )
 L_8_:NewTextBox(
