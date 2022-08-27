@@ -55,7 +55,7 @@ getgenv().AimPart = "UpperTorso" -- For R15 Games: {UpperTorso, LowerTorso, Huma
     getgenv().PredictMovement = true -- Predicts if they are moving in fast velocity (like jumping) so the aimbot will go a bit faster to match their speed 
     getgenv().PredictionVelocity = 6.613
     getgenv().CheckIfJumped = true
-    getgenv().Smoothness = true
+    getgenv().Smoothness = false
     getgenv().SmoothnessAmount = 0.0460
 
     local Players, Uis, RService, SGui = game:GetService"Players", game:GetService"UserInputService", game:GetService"RunService", game:GetService"StarterGui";
@@ -244,11 +244,11 @@ L_6_:NewDropdown(
 	getgenv().AimPart = L_71_arg0
 end
 )
-L_6_:NewTextBox(
+L_6_:NewToggle(
     "Smoothness",
     "rice rice",
     function(L_990_arg0)
-	getgenv().SmoothnessAmount = L_990_arg0
+	getgenv().Smoothness = L_990_arg0
 end
 )
 local L_7_ = L_4_:NewTab("Silent Aim")
